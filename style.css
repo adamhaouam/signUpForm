@@ -36,13 +36,14 @@ main {
 }
 
 .panel {
-    background-color: red;
+    background: url(./images/shopSign.avif) no-repeat center;
+    background-size: cover;
     flex: 3;
     
 }
 
 .formSide {
-    background-color: blue;
+    background-color: whitesmoke;
     flex: 5;
     
 }
