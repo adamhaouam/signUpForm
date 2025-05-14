@@ -1,10 +1,10 @@
-@import "modern-normalize";
+@import "node_modules/modern-normalize/";
 
 :root {
   line-height: 1.5;
 }
 
-h1, h2, h3, h4, h5, figure, p, ol, ul {
+h1, h2, h3, h4, h5, figure, p, ol, ul, body {
   margin: 0;
 }
 
@@ -21,4 +21,28 @@ h1, h2, h3, h4, h5 {
 img {
   display: block;
   max-inline-size: 100%;
+}
+
+
+/*---------------------------------------Normalize-------------*/
+
+
+main {
+    display: flex;
+    flex: 1;
+    align-items: stretch;
+    width: 100vw;
+    height: 100vh;
+}
+
+.panel {
+    background-color: red;
+    flex: 3;
+    
+}
+
+.formSide {
+    background-color: blue;
+    flex: 5;
+    
 }
