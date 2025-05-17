@@ -39,7 +39,29 @@ main {
     background: url(./images/shopSign.avif) no-repeat center;
     background-size: cover;
     flex: 3;
+    display: flex;
+    flex-direction: column;
     
+}
+
+.banner {
+    margin-top: 30vh;
+    height: 200px;
+    background-color: black;
+    opacity: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.bannerTitle {
+    color: white;
+    opacity: 100%;
+    font-size: 5rem;
+}
+
+.odinLogo {
+    height: 100%;
+    display: inline;
 }
 
 .formSide {
