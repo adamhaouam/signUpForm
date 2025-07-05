@@ -84,15 +84,14 @@ input, label {
   display:block;
 }
 
-* {
-  border: 1px solid red;
-}
+
 
 
 fieldset {
   display: flex;
   border: 0px;
-  gap: 50px;
+  padding: 0;
+  gap: 30px;
 }
 
 fieldset > div > input {
@@ -104,14 +103,11 @@ fieldset > div > input {
 fieldset > div {
   width: 30%;
   max-width: 400px;
+  margin: 5px 0px;
 }
 
-p, h1, h2, label, button {
+p, h1, h2, label, button, span {
   font-family: 'Funnel Sans', sans-serif;
-}
-
-em {
-  font-weight: 500;
 }
 
 h2 {
@@ -120,13 +116,13 @@ h2 {
 
 .formInfo > p{
   font-size: 1.2rem;
-  padding: 10px;
-  line-height: 1.8;
+  padding: 0 0 10px 30px;
+  line-height: 1.6;
   font-weight: 600;
 }
 
 .mainForm {
-  padding: 20px;
+  padding: 10px 0 20px 30px;
   background-color: white;
   box-shadow: 1px 5px 11px 1px rgba(105,105,105,0.75);
 -webkit-box-shadow: 1px 5px 11px 1px rgba(105,105,105,0.75);
@@ -135,11 +131,15 @@ h2 {
 }
 
 button {
-  margin: 15px;
+  margin: 20px 0 10px 30px;
   font-size: 1.3rem;
   border-radius: 6px;
   background-color: green;
   color: white;
+}
+
+span {
+  margin-left: 30px;
 }
 
 label {
