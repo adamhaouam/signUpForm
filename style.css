@@ -85,9 +85,6 @@ input, label {
   display:block;
 }
 
-
-
-
 fieldset {
   display: flex;
   border: 0px;
@@ -154,3 +151,6 @@ label {
   font-weight: 500;
 }
 
+a {
+  text-decoration: none;
+}
