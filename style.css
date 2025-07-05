@@ -76,3 +76,27 @@ main {
 * {
     border: 1px red solid;
 }
+
+input, label {
+  display:block;
+}
+
+
+
+fieldset {
+  display: flex;
+}
+
+fieldset > div:first-child {
+  margin-right: 5%;
+}
+
+fieldset > div > input {
+  
+  border-radius: 4px;
+}
+
+fieldset > div {
+  width: 40%;
+  max-width: 300px;
+}
