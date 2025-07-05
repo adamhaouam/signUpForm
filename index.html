@@ -3,6 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -16,42 +21,45 @@
         </div>
         <div class="formSide">
             <div class="formInfo">
-                <p>This is not a real online service! You know you need osmething like this in your life to help you realise your deepest dreams</p>
+                <p>This is not a real online service! You know you need something like this in your life to help you realise your deepest dreams</p>
                 <p>You <em>know</em> you want to.</p>
             </div>
             <div class="formPanel">
                 <form>
-                <h2>Let's do this!</h2>
-                <fieldset class="name">
-                    <div>
-                        <label for="firstName">First Name:</label>
-                        <input type="text" id="firstName" name="firstName">
+                    <div class="mainForm">
+                        <h2>Let's do this!</h2>
+                        <fieldset class="name">
+                            <div>
+                                <label for="firstName">First Name:</label>
+                                <input type="text" id="firstName" name="firstName">
+                            </div>
+                            <div>
+                                <label for="lastName">Last Name:</label>
+                                <input type="text" id="lastName" name="lastName">
+                            </div>
+                        </fieldset>
+                        <fieldset class="contact">
+                            <div>
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email">
+                            </div>
+                            <div>
+                                <label for="phone">Phone Number:</label>
+                                <input type="phone" id="phone" name="phone">
+                            </div>
+                        </fieldset>
+                        <fieldset class="password">
+                            <div>
+                                <label for="password">Password:</label>
+                                <input type="password" id="password" name="password">
+                            </div>
+                            <div>
+                                <label for="confirmPassword">Confirm Password:</label>
+                                <input type="password" id="confirmPassword">
+                            </div>
+                        </fieldset>
                     </div>
-                    <div>
-                        <label for="lastName">Last Name:</label>
-                        <input type="text" id="lastName" name="lastName">
-                    </div>
-                </fieldset>
-                <fieldset class="contact">
-                    <div>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email" name="email">
-                    </div>
-                    <div>
-                        <label for="phone">Phone Number:</label>
-                        <input type="phone" id="phone" name="phone">
-                    </div>
-                </fieldset>
-                <fieldset class="password">
-                    <div>
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password">
-                    </div>
-                    <div>
-                        <label for="confirmPassword">Confirm Password:</label>
-                        <input type="password" id="confirmPassword">
-                    </div>
-                </fieldset>
+                    <button type="submit">Create Account</button>
                 </form>
             </div>
         </div>
