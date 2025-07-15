@@ -30,7 +30,7 @@ img {
 /*------------------left side ---------*/
 main {
     display: flex;
-    flex: 1;
+    flex: 0;
     align-items: stretch;
     width: 100vw;
     height: 100vh;
@@ -42,6 +42,7 @@ main {
     flex: 3;
     display: flex;
     flex-direction: column;
+    min-width: max(40%, 350px);
     
 }
 
@@ -52,12 +53,13 @@ main {
     opacity: 50%;
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 .bannerTitle {
     color: white;
     opacity: 100%;
-    font-size: 5rem;
+    font-size: 10cqw;
 }
 
 .odinLogo {
