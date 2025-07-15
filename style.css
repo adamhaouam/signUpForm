@@ -59,7 +59,7 @@ main {
 .bannerTitle {
     color: white;
     opacity: 100%;
-    font-size: 10cqw;
+    font-size: max(60px, 10cqw);
 }
 
 .odinLogo {
@@ -99,10 +99,11 @@ fieldset > div > input {
   border-radius: 4px;
   padding: 4px;
   border: grey solid 1px;
+  width: clamp(70px, 15vw, 300px);
 }
 
 fieldset > div {
-  width: 30%;
+  
   max-width: 400px;
   margin: 5px 0px;
 }
