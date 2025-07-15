@@ -45,17 +45,17 @@
                             </div>
                             <div>
                                 <label for="phone">Phone Number:</label>
-                                <input type="phone" id="phone" name="phone">
+                                <input type="tel" id="phone" name="phone" pattern="\d{10,}">
                             </div>
                         </fieldset>
                         <fieldset class="password">
                             <div>
                                 <label for="password">Password:</label>
-                                <input type="password" id="password" name="password">
+                                <input type="password" id="password" name="password" pattern=".{8,}" >
                             </div>
                             <div>
                                 <label for="confirmPassword">Confirm Password:</label>
-                                <input type="password" id="confirmPassword">
+                                <input type="password" id="confirmPassword" pattern=".{8,}">
                             </div>
                         </fieldset>
                     </div>

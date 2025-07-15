@@ -154,3 +154,14 @@ label {
 a {
   text-decoration: none;
 }
+
+
+fieldset > div > input:focus {
+  border: 1px solid rgb(81, 81, 163);
+  outline: none
+}
+
+fieldset > div > input:invalid {
+  border: 1px solid red;
+  outline: none
+}
